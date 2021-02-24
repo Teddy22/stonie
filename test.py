@@ -19,5 +19,6 @@ class FizzBuzzTest(unittest.TestCase):
         self.assertEqual(fizzbuzz(5.0), None, msg)
         self.assertEqual(fizzbuzz(15.0), None, msg)
 
+        
 if __name__ == '__main__':
     unittest.main()
